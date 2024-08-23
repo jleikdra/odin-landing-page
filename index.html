@@ -3,45 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Landing page</title>
 </head>
 <body>
 <!-- header -->
 <header>
-    <h3 class="header-heading">Header logo</h3>
-    <nav>
-    <ul class="navbar">
-        <li><a href="">header link one</a></li>
-        <li><a href="">header link two</a></li>
-        <li><a href="">header link three</a></li>
-    </ul>
+    <nav class="navbar-left">
+        <h3 id="header-logo">Header logo</h3>
+    </nav>
+    <nav class="navbar-right">
+        <ul class="navlist">
+            <li><a href="#">header link one</a></li>
+            <li><a href="#">header link two</a></li>
+            <li><a href="#">header link three</a></li>
+        </ul>
     </nav>
 </header>
 <!-- hero-section -->
  <section class="hero">
-    <h1>This Website is Awesome</h1>
-    <p>This website has some subtext that goes here under the
+    <div class="hero-left">
+        <h1>Fly me to the moon</h1>
+        <p>This website has some subtext that goes here under the
         main title. It's a smaller font and the color is lower
         contrast</p>
-    <button>Sign up</button>
-    <img src="" alt="placeholder text">
+        <button>Sign up</button>
+    </div>
+    <div class="hero-right">
+        <img src="astronaut.jpg" alt="astronaut">
+    </div>
  </section>
 <!-- info-section -->
  <section class="info-section">
-
+    <h2>Some random information</h2>
+    <div class="content-blocks">
+        <figure><img src="" alt="content1">
+        <p>some text</p></figure>
+        <figure><img src="" alt="content1">
+            <p>some text</p></figure>
+        <figure><img src="" alt="content1">
+            <p>some text</p></figure>
+    </div>
  </section>
 <!-- testemonials -->
  <section class="testemonials">
-
+    <blockquote>This is a quote</blockquote>
  </section>
 <!-- cta -->
  <section class="cta">
-
+    <div class="cta">
+        <h3></h3>
+        <p></p>
+        <button></button>
+    </div>
  </section>
 <!-- footer -->
 <footer>
-
+    <p>Copyright ©Mr. Landing Page</p>
 </footer>
 </body>
 </html>
